@@ -17,6 +17,9 @@
       <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />
     </a>
   </p>
+  <p>
+    🎮 在线演示：<a href="https://img.bsgun.cn" target="_blank">https://img.bsgun.cn</a>
+  </p>
 </div>
 
 ## 📖 简介
