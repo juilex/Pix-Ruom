@@ -53,11 +53,11 @@
           label-width="100px"
         >
           <el-input
-            :value="currentStorageConfig[field.key]"
+            :model-value="currentStorageConfig[field.key]"
             :type="field.type || 'text'"
             :placeholder="field.placeholder"
             :show-password="field.type === 'password'"
-            @input="updateStorageConfig(field.key, $event)"
+            @update:model-value="updateStorageConfig(field.key, $event)"
             @blur="validateField(field.key)"
           >
             <template #prefix>
