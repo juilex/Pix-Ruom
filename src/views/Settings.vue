@@ -364,6 +364,7 @@ provide('hasUnsavedChanges', hasUnsavedChanges)
 
 @media screen and (max-width: 768px) {
   .settings-container {
+    display: block;
     grid-template-columns: 1fr;
     gap: 12px;
   }
