@@ -42,7 +42,7 @@ export class S3Storage extends BaseStorage {
       const command = new PutObjectCommand({
         Bucket: this.bucket,
         Key: key,
-        Body: file,
+        Body: await file.arrayBuffer(),
         ContentType: file.type,
         ACL: 'public-read'
       })
